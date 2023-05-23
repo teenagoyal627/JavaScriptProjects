@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:ital@1&family=Varela+Round&display=swap');
+body{
+    background-color: antiquewhite;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 60px;
+    background-color: grey;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 48px;
+}
+
+.brand{
+    display:  flex;
+    padding: 0 7px;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+
+}
+.container{
+    min-height:75vh;
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url("https://img.freepik.com/free-vector/musical-notes-pattern-black-background_1017-32303.jpg?w=360");
+}
+
+.bottom
+{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    bottom: 0;
+    flex-direction: column;
+}
+
+.icons{
+
+    margin-top: 15px;
+
+}
+.icons i:hover{
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 90vw;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 310px;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 14px;
+}
+
+.songItem img{
+    width: 43px;
+    margin: 0 25px;
+    border-radius: 34px;
+}
+.timestamp{
+    margin: 0 23px
+}
+.timestamp i:hover
+{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 4vw;
+}
+
+.songInfo img{
+    height: 35px;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
